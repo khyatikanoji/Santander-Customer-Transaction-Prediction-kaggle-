@@ -10,7 +10,7 @@ and 202 features so it a big data. Challenge is to deal with imbalance data so h
 ## Data Preprocessing
 1.Split data into train and Cross val
 
-2. Remove Outlier(Z-score)
+2.Remove Outlier(Z-score)
 
 3.Feature Scaling(normlization)
 
@@ -20,7 +20,11 @@ and 202 features so it a big data. Challenge is to deal with imbalance data so h
 Undersampling is also used but this lead to loss of infromation and hence it reduces the accuracy due to lack of information. So here oversampling is used using imblearn library which makes copies of minority class by some fraction here we take .5 fraction so that after the oversampling 9:1 reduced to 2:1.
 
 ## Ensemble models
-
+Bagging and boosting algorithm is used to train the model.Bagging work well in comparsion to boosting. Adaboost classfier overfit
+the model as the data that we create is artificial training data by oversampling to deal with imbalance data.Confusion matrix is used so 
+useful to analyse the output as Cross val data is also imbalance.Analysis of the output is done by following:
+**acc_1=(true positive)/(true positive + false negeative)
+acc_0=(true negative)/(true negative + false positive)**
 
 
 
