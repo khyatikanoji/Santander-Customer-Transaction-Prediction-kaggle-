@@ -8,9 +8,9 @@ It is a binary classfication problem. Training data is highly imbalance it conta
 and 202 features so it a big data. Challenge is to deal with imbalance data so here we handle this problem by imblearn library.
 
 ## Data Preprocessing
-</b>1.Split data into train and Cross val
+1.Split data into train and Cross val
 
-</b>2. Remove Outlier(Z-score)
+2. Remove Outlier(Z-score)
 
 3.Feature Scaling(normlization)
 
@@ -19,7 +19,8 @@ and 202 features so it a big data. Challenge is to deal with imbalance data so h
 ## Dealing with the imbalanced data
 Undersampling is also used but this lead to loss of infromation and hence it reduces the accuracy due to lack of information. So here oversampling is used using imblearn library which makes copies of minority class by some fraction here we take .5 fraction so that after the oversampling 9:1 reduced to 2:1.
 
-## Algorthim /emsemble model
+## Ensemble models
+
 
 
 
