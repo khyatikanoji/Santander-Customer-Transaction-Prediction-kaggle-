@@ -25,8 +25,9 @@ the model as the data that we create is artificial training data by oversampling
 useful to analyse the output as Cross val data is also imbalance.Analysis of the output is done by following:
 
 
-**acc_1=(true positive)/(true positive + false negeative)
-acc_0=(true negative)/(true negative + false positive)**
+**acc_1=(true positive)/(true positive + false negeative)**
+
+**acc_0=(true negative)/(true negative + false positive)**
 
 
 
