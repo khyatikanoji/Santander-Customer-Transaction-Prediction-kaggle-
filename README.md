@@ -23,6 +23,8 @@ Undersampling is also used but this lead to loss of infromation and hence it red
 Bagging and boosting algorithm is used to train the model.Bagging work well in comparsion to boosting. Adaboost classfier overfit
 the model as the data that we create is artificial training data by oversampling to deal with imbalance data.Confusion matrix is used so 
 useful to analyse the output as Cross val data is also imbalance.Analysis of the output is done by following:
+
+
 **acc_1=(true positive)/(true positive + false negeative)
 acc_0=(true negative)/(true negative + false positive)**
 
